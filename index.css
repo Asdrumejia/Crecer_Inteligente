@@ -1,0 +1,229 @@
+/* Tipo de letra */
+@import url("https://fonts.googleapis.com/css2?family=JetBrainsMono&family=Work+Sans:wght@100;300;400;600;800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-weight: 600;
+  background-color: #ffdb99;
+  width: 100%;
+  height: 100%;
+}
+
+.crecer-inteligente {
+  margin-top: 10px;
+}
+
+.titulo-one {
+  font-size: 50px;
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+  color: #de5400;
+}
+
+.lema {
+  margin-top: 20px;
+  font-size: 35px;
+  font-family: "JetBrains Mono";
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+  color: #120912;
+}
+
+.caracteristicas {
+  margin-top: 20px;
+  font-size: 35px;
+  font-family: "JetBrains Mono";
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+  color: #120912;
+
+  .titulo-two {
+    font-size: 35px;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    padding: 0 10px;
+    color: #de5400;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  li {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.transicion-primaria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 10px;
+
+  .titulo-three {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    color: #de5400;
+  }
+
+  img {
+    width: 25px;
+    height: 25px;
+    flex: 1 1 auto;
+    max-width: 100%;
+  }
+}
+
+.horarios {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+
+  .titulo-four {
+    font-size: 35px;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    padding: 0 10px;
+    color: #de5400;
+  }
+}
+
+.imagenes {
+  padding: 0 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  img {
+    min-width: 400px;
+    height: 250px;
+    border-radius: 10px;
+  }
+}
+
+.pie-pagina {
+  background-color: #de5400;
+  padding: 0 10px;
+}
+
+.contactos {
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Playfair Display";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+
+  .titulo-five {
+    font-size: 35px;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    padding: 0 10px;
+    color: #120912;
+  }
+
+  .telefonos {
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+.cupos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding: 0 10px;
+
+  .titulo-six {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    color: #120912;
+  }
+
+  img {
+    width: 25px;
+    height: 25px;
+    flex: 1 1 auto;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .transicion-primaria,
+  .cupos {
+    flex-direction: row;
+    align-items: center;
+
+    .titulo-two {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+    }
+  }
+}
